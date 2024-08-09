@@ -4,9 +4,6 @@
 }
 
 /* header section */
-.container {
-
-}
 .header-bg {
     display: flex;
     justify-content: space-between;
@@ -68,8 +65,8 @@ ul li a:hover {
     font-weight: 600;
     text-transform: uppercase;
 }
-.text-yellow {
-    color: #f8b90c;
+.main-section-left h5 span {
+    color: #f5b711;
 }
 .main-section-left h2 {
     color: #FFFFFF;
@@ -97,5 +94,186 @@ ul li a:hover {
     padding: 16px;
     width: 160px;
     border-radius: 35px;
+}
+.main-section-img img {
+    position: relative;
+}
+.experience h3 {
+    position: absolute;
+    background-color: #111122;
+    color: #F5B711;
+    border-radius: 35px;
+    border: 1px solid #f5b711;
+    text-align: center;
+    margin-top: -185px;
+    padding: 16px 50px 24px 50px;
+}
+.experience h3 span {
+    font-size: 35px;
+    color: white;
+}
+.experience-right {
+    margin-left: 295px;
+    margin-top: 84px;
+}
+.experience-right h3 {
+    position: absolute;
+    background-color: #111122;
+    color: #F5B711;
+    border-radius: 35px;
+    border: 1px solid #f5b711;
+    text-align: center;
+    margin-top: -185px;
+    padding: 16px 50px 24px 50px;
+}
+.experience-right h3 span {
+    font-size: 35px;
+    color: white;
+}
 
+/* service section */
+.service-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 50px;
+}
+
+.service-cart {
+    background-color: #1C222A;
+    width: 320px;
+    padding: 41px 59px 56px 25px;
+    border-radius: 30px;
+}
+.service-title h2 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 55px;
+    margin-bottom: -8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.service-title p {
+    color: #F3B90B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.service-cart h5 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #1C222A;
+    text-transform: uppercase;
+}
+.service-cart p {
+    color: white;
+    margin-top: -25px;
+    background-color: #1C222A;
+} 
+.service-cart span {
+    color: white;
+    background-color: #1C222A;
+}
+.service-cart span i {
+    color: #F3B90B;
+    padding-left: 5px;
+    background-color: #1C222A;
+}
+
+/* fortfolio section */
+.portfolio-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+.portfolio-title {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: -8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.portfolio-title p {
+    color: #F3B90B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    margin-top: -30px;
+    font-weight: 400;
+    text-align: center;
+}
+.portfolio-cart {
+    background: #1C222A;
+    width: 378px;
+    padding: 30px 30px 40px 30px;
+    border-radius: 20px;
+}
+.text-yello {
+    color: #F8B90C;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #1C222A;
+    text-transform: uppercase;
+}
+.text-white {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: -12px;
+    margin-bottom: 15px;
+    background-color: #1C222A;
+}
+.portfolio-cart span {
+    color: white;
+    background-color: #1C222A;
+}
+.portfolio-cart span i {
+    color: #F3B90B;
+    padding-left: 5px;
+    background-color: #1C222A;
+}
+/* testimonials-section  */
+.testimonials-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.testimonials-title h2 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    margin-top: 110px;
+    margin-bottom: -8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.testimonials-title p {
+    color: #F3B90B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.testimonials-cart {
+    background: #1C222A;
+    width: 378px;
+    padding: 65px 30px 40px 30px;
+    border-radius: 20px;
+}
+.testimonials-cart p {
+    color: white;
+    margin-top: -25px;
+    background-color: #1C222A;
 }
