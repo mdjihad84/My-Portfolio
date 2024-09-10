@@ -22,7 +22,6 @@ ul {
     text-align: right;
     margin-right: 50px;
     margin-top: 15px;
-    
 }
 ul li {
     display: inline-block;
@@ -113,7 +112,7 @@ ul li a:hover {
     border: 1px solid #f5b711;
     text-align: center;
     font-size: 14px;
-    margin-top: -185px;
+    margin-top: -165px;
     padding: 16px 50px 24px 50px;
 }
 .experience h3 span {
@@ -131,22 +130,10 @@ ul li a:hover {
     border-radius: 35px;
     border: 1px solid #f5b711;
     text-align: center;
+    margin-left: -30px;
     font-size: 14px;
-    margin-top: -185px;
+    margin-top: -180px;
     padding: 16px 50px 24px 50px;
-    animation-name: animation;
-    animation-iteration-count: infinite;
-    animation-duration: 5s;
-}
-@keyframes animaiton {
-
-    from {
-       width: 500px;
-    }
-    
-    to {
-        width: 200px;
-    }
 }
 .experience-right h3 span {
     font-size: 35px;
@@ -160,7 +147,6 @@ ul li a:hover {
     margin-top: 80px;
     gap: 50px;
 }
-
 .service-cart {
     background-color: #1C222A;
     width: 320px;
@@ -169,6 +155,7 @@ ul li a:hover {
 }
 .service-img {
     width: 50px;
+    border-radius: 20px;
 }
 .service-title h2 {
     color: #FFFFFF;
@@ -307,7 +294,6 @@ ul li a:hover {
     margin-top: -25px;
     background-color: #1C222A;
 }
-
 .testimonials-cart img {
     border-radius: 30px;
 }
@@ -320,7 +306,6 @@ ul li a:hover {
     text-align: center;
     margin-top: 50px;
 }
-
 .contact-title h2 {
     color: white;
     font-family: "Poppins", Sans-serif;
@@ -347,6 +332,7 @@ ul li a:hover {
 }
 .contact-img {
     width: 50px;
+    border-radius: 20px;
 }
 .contact-card i {
     color: #F3B90B;
@@ -359,15 +345,14 @@ ul li a:hover {
     margin-top: 15px;
     margin-bottom: -8px;
     background-color: #1C222A;
-
 }
 .contact-card p {
     font-weight: 300;
     line-height: 1.6em;
     margin-bottom: 15px;
     background-color: #1C222A;
-
 }
+
 /* footer section */
 .footer-contain {
     display: flex;
@@ -417,7 +402,6 @@ ul li a:hover {
 }
 
 @media only screen and (max-width: 640px) {
-
     /* header section */
     .header-bg {
         display: flex;
@@ -446,6 +430,7 @@ ul li a:hover {
         border-radius: 25px;
         transition: 0s;
     }
+
     /* main section */
     .main-container {
         display: flex;
@@ -514,6 +499,7 @@ ul li a:hover {
         text-transform: capitalize;
         background-color: #F3B90B;
     }
+
     /* service section */
     .service-title h2 {
         color: #FFFFFF;
@@ -543,6 +529,7 @@ ul li a:hover {
         margin-top: -25px;
         background-color: #1C222A;
     }
+
     /* portfolio section */
     .portfolio-title {
         color: #FFFFFF;
@@ -561,6 +548,7 @@ ul li a:hover {
         gap: 30px;
         flex-direction: column-reverse;
     }
+
     /* testimonials section */
     .testimonials-title h2 {
         color: #FFFFFF;
@@ -585,6 +573,7 @@ ul li a:hover {
         padding: 65px 30px 40px 30px;
         border-radius: 20px;
     }
+
     /* contact section */
     .contact-title h2 {
         color: white;
@@ -611,5 +600,4 @@ ul li a:hover {
         margin-top: 50px;
         flex-direction: column-reverse;
     }
-
 }
