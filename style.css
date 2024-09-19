@@ -413,11 +413,12 @@ ul li a:hover {
         color: white;
         margin-left: 5px;
         margin-top: 15px;
-        display: flex;
+        display: none;
     }
     ul {
         list-style: none;
         margin-top: 15px;
+        margin-right: -25px;
     }
     ul li a {
         text-decoration: none;
@@ -435,6 +436,7 @@ ul li a:hover {
     .main-container {
         display: flex;
         align-items: center;
+        margin-left: 30px;
         flex-direction: column-reverse;
     }
     .main-section-img img {
@@ -451,7 +453,8 @@ ul li a:hover {
         font-size: 14px;
         border: 1px solid #f5b711;
         text-align: center;
-        margin-top: -117px;
+        margin-top: -140px;
+        margin-left: -21px;
         padding: 5px 16px 17px 20px;
     }
     .experience-right h3 {
@@ -462,13 +465,13 @@ ul li a:hover {
         border-radius: 25px;
         border: 1px solid #f5b711;
         text-align: center;
-        margin-top: -145px;
-        margin-left: -120px;
-        padding: 5px 16px 17px 20px;
+        margin-top: -152px;
+        margin-left: -136px;
+        padding: 5px 16px 18px 20px;
     }
     .main-section-left {
-        width: 575px;
-        margin-left: 200px;
+        width: 380px;
+        margin-bottom: 35px;
     }
     .main-section-left h2 {
         color: #FFFFFF;
@@ -501,6 +504,9 @@ ul li a:hover {
     }
 
     /* service section */
+    .service-title {
+        margin-left: 22px;
+    }
     .service-title h2 {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
@@ -515,6 +521,7 @@ ul li a:hover {
         justify-content: center;
         margin-top: 80px;
         gap: 50px;
+        margin-left: 12px;
         flex-direction: column-reverse;
     }
     .service-cart {
@@ -531,12 +538,16 @@ ul li a:hover {
     }
 
     /* portfolio section */
+    .portfolio-container {
+        margin-left: 11px;
+    }
     .portfolio-title {
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
         font-size: 25px;
         margin-top: 45px;
         margin-bottom: -25px;
+        margin-left: 25px;
         font-weight: 600;
         text-transform: uppercase;
         text-align: center;
@@ -545,26 +556,24 @@ ul li a:hover {
         display: flex;
         justify-content: center;
         margin-top: 70px;
+        margin-left: 10px;
         gap: 30px;
         flex-direction: column-reverse;
     }
 
     /* testimonials section */
+    .testimonials-title {
+        margin-left: 22px;
+    }
     .testimonials-title h2 {
-        color: #FFFFFF;
-        font-family: "Poppins", Sans-serif;
         font-size: 35px;
-        margin-top: 55px;
-        margin-bottom: -8px;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
     }
     .testimonials-content {
         display: flex;
         justify-content: center;
         gap: 40px;
         margin-top: 50px;
+        margin-left: 10px;
         flex-direction: column-reverse;
     }
     .testimonials-cart {
@@ -575,15 +584,13 @@ ul li a:hover {
     }
 
     /* contact section */
+    .contact-title {
+        margin-left: 35px;
+    }
     .contact-title h2 {
-        color: white;
-        font-family: "Poppins", Sans-serif;
         margin-top: 65px;
         margin-bottom: -11px;
         font-size: 35px;
-        font-weight: 600;
-        text-align: center;
-        text-transform: uppercase;
     }
     .contact-title p {
         color: #F3B90B;
