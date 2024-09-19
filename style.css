@@ -607,4 +607,20 @@ ul li a:hover {
         margin-top: 50px;
         flex-direction: column-reverse;
     }
+
+    /* footer section */
+    .footer-contain {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-left ul li a {
+        margin-right: 38px;
+        padding-top: 12px;
+    }
+    
+    .footer-right p {
+        margin-bottom: 0;
+        width: 254px;
+        text-align: center;
+    }  
 }
