@@ -258,6 +258,7 @@ ul li a:hover {
     padding-left: 5px;
     background-color: #1C222A;
 }
+
 /* testimonials-section  */
 .testimonials-content {
     display: flex;
@@ -358,6 +359,7 @@ ul li a:hover {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 10px;
     padding: 20px 80px 20px 80px;
     border-radius: 15px;
     background-color: #1C222A;
@@ -446,40 +448,22 @@ ul li a:hover {
         margin-top: 84px;
     }
     .experience h3 {
-        position: absolute;
-        background-color: #111122;
-        color: #F5B711;
-        border-radius: 25px;
-        font-size: 14px;
-        border: 1px solid #f5b711;
-        text-align: center;
         margin-top: -140px;
         margin-left: -21px;
         padding: 5px 16px 17px 20px;
     }
     .experience-right h3 {
-        position: absolute;
-        background-color: #111122;
-        color: #F5B711;
-        font-size: 14px;
-        border-radius: 25px;
-        border: 1px solid #f5b711;
-        text-align: center;
         margin-top: -152px;
         margin-left: -136px;
-        padding: 5px 16px 18px 20px;
+        padding: 2px 22px 18px 22px;
     }
     .main-section-left {
         width: 380px;
         margin-bottom: 35px;
     }
     .main-section-left h2 {
-        color: #FFFFFF;
-        font-family: "Poppins", Sans-serif;
         font-size: 35px;
-        font-weight: 600;
         margin-top: -15px;
-        text-transform: uppercase;
         margin-bottom: -15px;
     }
     .main-section-left p {
@@ -490,17 +474,9 @@ ul li a:hover {
         margin-bottom: 25px;
     }
     .main-section-left button {
-        font-family: "Poppins", Sans-serif;
         font-size: 16px;
-        color: white;
-        font-weight: 600;
-        border: none;
         padding: 15px;
         width: 140px;
-        cursor: pointer;
-        border-radius: 25px;
-        text-transform: capitalize;
-        background-color: #F3B90B;
     }
 
     /* service section */
@@ -508,20 +484,15 @@ ul li a:hover {
         margin-left: 22px;
     }
     .service-title h2 {
-        color: #FFFFFF;
-        font-family: "Poppins", Sans-serif;
         font-size: 35px;
         margin-bottom: -10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
     }
     .service-content {
         display: flex;
         justify-content: center;
         margin-top: 80px;
         gap: 50px;
-        margin-left: 12px;
+        margin-left: 18px;
         flex-direction: column-reverse;
     }
     .service-cart {
@@ -542,21 +513,16 @@ ul li a:hover {
         margin-left: 11px;
     }
     .portfolio-title {
-        color: #FFFFFF;
-        font-family: "Poppins", Sans-serif;
         font-size: 25px;
         margin-top: 45px;
         margin-bottom: -25px;
         margin-left: 25px;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
     }
     .portfolio-content {
         display: flex;
         justify-content: center;
         margin-top: 70px;
-        margin-left: 10px;
+        margin-left: 18px;
         gap: 30px;
         flex-direction: column-reverse;
     }
@@ -573,7 +539,7 @@ ul li a:hover {
         justify-content: center;
         gap: 40px;
         margin-top: 50px;
-        margin-left: 10px;
+        margin-left: 18px;
         flex-direction: column-reverse;
     }
     .testimonials-cart {
@@ -593,11 +559,7 @@ ul li a:hover {
         font-size: 35px;
     }
     .contact-title p {
-        color: #F3B90B;
-        font-family: "Poppins", Sans-serif;
         font-size: 17px;
-        font-weight: 400;
-        text-align: center;
     }
     .content-section {
         display: flex;
@@ -612,6 +574,10 @@ ul li a:hover {
     .footer-contain {
         display: flex;
         flex-direction: column;
+        padding: 20px 56px 20px 80px;
+    }
+    .footer-left {
+        margin-left: 42px;
     }
     .footer-left ul li a {
         margin-right: 38px;
